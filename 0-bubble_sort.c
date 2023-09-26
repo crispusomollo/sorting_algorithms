@@ -3,7 +3,7 @@
 /**
  * bubble_sort - sorts array of int in an ascending order
  * using Bubble sort algorithm
- * array - the size of integer to be sorted
+ * @array - the size of integer to be sorted
  * @size - the size of array
  */
 
@@ -26,7 +26,7 @@ void bubble_sort(int *array, size_t size)
 				tmp = array[x];
 				array[x] = array[x + 1];
 				array[x + 1] = tmp;
-				swapp = true;
+				swap = true;
 				print_array(array, size);
 			}
 		}
