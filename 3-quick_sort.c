@@ -78,7 +78,7 @@ int partition(int *array, int small, int big, size_t size)
  * @y: the first element to be swapped
  * @z: the second element to be swapped
  */
-void swap(int *array, int y, int z)
+void swapping(int *array, int y, int z)
 {
 	int tmp;
 
